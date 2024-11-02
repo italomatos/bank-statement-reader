@@ -3,6 +3,7 @@
 require_relative "parser/version"
 require_relative "parser/statement_item"
 require_relative "nubank/credit_card/parser"
+require_relative "itau/parser"
 
 module Bank
   module Statement
